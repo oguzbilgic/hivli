@@ -1,10 +1,27 @@
 <?php
+
+include 'Bootstrap/Abstract.php';
+include 'Bootstrap/Controller.php';
+include 'Bootstrap/Model.php';
+include 'Bootstrap/View.php';
+include 'Bootstrap/Plugin.php';
+include 'Bootstrap/Router.php';
+
 class Core_Library_Bootstrap {
 	
 	private $_plugins;
 	private $_abstract;
 	private $_methodList;
-		
+	
+	function __construct(){
+		$this->addAbstract(new Core_Library_Bootstrap_Abstract);
+		$this->addPlugin(new Core_Library_Bootstrap_Controller);
+		$this->addPlugin(new Core_Library_Bootstrap_Model);
+		$this->addPlugin(new Core_Library_Bootstrap_View);
+		$this->addPlugin(new Core_Library_Bootstrap_Plugin);
+		$this->addPlugin(new Core_Library_Bootstrap_Router);
+	}
+	
 	function addPlugin($plugin){
 		$this->_plugins[] = $plugin;
 	}

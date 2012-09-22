@@ -1,5 +1,7 @@
 ## head
 
+* [bootstrap] Add bootstrap module
+
 ## v1.0.1
 
 * Add composer.json file
