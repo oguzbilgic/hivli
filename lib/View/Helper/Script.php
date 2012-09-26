@@ -1,20 +1,21 @@
 <?
+
 class Core_Library_View_Helper_Script extends Core_Library_View_Helper_Abstract {
-	
-	var $_viewFile;
 
-	function setViewFile($viewFile){
-		$this->_viewFile = $viewFile;
-	}
+  var $_viewFile;
 
-	function render(){
-		foreach ($this->View->getParams() as $key => $value){
-			$$key = $value ;
-		}
-		include $this->View->getViewPath() . 'script/' .$this->_viewFile . '.php';
-	}
+  function setViewFile($viewFile){
+    $this->_viewFile = $viewFile;
+  }
 
-	function modul($modulName, $modulParams = NULL){
-		$this->View->getHelper('Modul')->render($modulName, $modulParams);
-	}
+  function render(){
+    foreach ($this->View->getParams() as $key => $value){
+      $$key = $value ;
+    }
+    include $this->View->getViewPath() . 'script/' .$this->_viewFile . '.php';
+  }
+
+  function modul($modulName, $modulParams = NULL){
+    $this->View->getHelper('Modul')->render($modulName, $modulParams);
+  }
 }

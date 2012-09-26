@@ -1,4 +1,5 @@
 <?
+
 class Core_Library_Bootstrap_Model extends Core_Library_Bootstrap_Abstract {
 
   function postDetectApp(){

@@ -1,4 +1,5 @@
 <?
+
 class Core_Library_Bootstrap_View extends Core_Library_Bootstrap_Abstract {
 
   function postDetectApp(){
@@ -21,4 +22,3 @@ class Core_Library_Bootstrap_View extends Core_Library_Bootstrap_Abstract {
     $View->render();
   }
 }
-

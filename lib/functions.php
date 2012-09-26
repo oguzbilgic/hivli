@@ -1,11 +1,12 @@
 <?php
+
 function matchObjects($parentObjects, $childObjects, $field, $parentKey, $childKey) {  
-	$result = null;
-	foreach ($parentObjects as $parentObject){
-		array_search_in_level($parentObject[$parentKey], $childObjects, $childKey, $parentObject[$field], 1);
-		$newObjects[] =  $parentObject;
-	}
-	return $newObjects;
+  $result = null;
+  foreach ($parentObjects as $parentObject){
+    array_search_in_level($parentObject[$parentKey], $childObjects, $childKey, $parentObject[$field], 1);
+    $newObjects[] =  $parentObject;
+  }
+  return $newObjects;
 }
 
 function array_search_in_level($needle, $haystack, $key, &$result, $searchlevel = 0) {  

@@ -2,6 +2,7 @@
 
 * [bootstrap] Add bootstrap module
 * [plugin] Remove unused plugin module
+* Fix indentation of all php files
 
 ## v1.0.1
 

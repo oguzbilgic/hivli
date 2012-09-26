@@ -1,4 +1,5 @@
 <?
+
 class Core_Library_Bootstrap_Router extends Core_Library_Bootstrap_Abstract {
 
   function preDetectApp(){
@@ -7,7 +8,7 @@ class Core_Library_Bootstrap_Router extends Core_Library_Bootstrap_Abstract {
     $Router->setDefaultApplication('default');
   }
 
-  function detectApp(){		
+  function detectApp(){   
     $Router = Core_Library_Loader::get('Router');
     $Router->detectApp();
   }
@@ -17,4 +18,3 @@ class Core_Library_Bootstrap_Router extends Core_Library_Bootstrap_Abstract {
     $Router->route();
   }
 }
-

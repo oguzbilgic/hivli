@@ -1,4 +1,5 @@
 <?
+
 class Core_Library_Bootstrap_Controller extends Core_Library_Bootstrap_Abstract {
 
   function preAction(){
@@ -16,7 +17,7 @@ class Core_Library_Bootstrap_Controller extends Core_Library_Bootstrap_Abstract 
     $viewParams = $Controller->getController()->getViewParams();
     if(!empty($viewParams)){
       $view = Core_Library_Loader::get('View');
-      $view->setViewParamFromArray($viewParams);	
+      $view->setViewParamFromArray($viewParams);  
     }
   }
 }
