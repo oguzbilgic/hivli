@@ -4,7 +4,6 @@ include 'Bootstrap/Abstract.php';
 include 'Bootstrap/Controller.php';
 include 'Bootstrap/Model.php';
 include 'Bootstrap/View.php';
-include 'Bootstrap/Plugin.php';
 include 'Bootstrap/Router.php';
 
 class Core_Library_Bootstrap {
@@ -18,7 +17,6 @@ class Core_Library_Bootstrap {
 		$this->addPlugin(new Core_Library_Bootstrap_Controller);
 		$this->addPlugin(new Core_Library_Bootstrap_Model);
 		$this->addPlugin(new Core_Library_Bootstrap_View);
-		$this->addPlugin(new Core_Library_Bootstrap_Plugin);
 		$this->addPlugin(new Core_Library_Bootstrap_Router);
 	}
 	

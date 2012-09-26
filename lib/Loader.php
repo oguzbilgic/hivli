@@ -3,7 +3,6 @@ class Core_Library_Loader {
 	
 	public static $_library = array('Auth' => 'Core_Library_Auth',
 									'Controller' => 'Core_Library_Controller',	
-									'Plugin' => 'Core_Library_Plugin',	
 						  			'Database' => 'Core_Library_Database',	
 						  			'Error' => 'Core_Library_Error',	
 						  			'Model' => 'Core_Library_Model',	

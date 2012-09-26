@@ -1,6 +1,7 @@
 ## head
 
 * [bootstrap] Add bootstrap module
+* [plugin] Remove unused plugin module
 
 ## v1.0.1
 
