@@ -1,5 +1,7 @@
 ## head
 
+* Add composer.json file
+
 ## v1.0.0
 
 Initial release
