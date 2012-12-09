@@ -1,5 +1,7 @@
 ## head
 
+## v1.0.1
+
 * Add composer.json file
 
 ## v1.0.0
