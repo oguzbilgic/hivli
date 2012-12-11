@@ -1,6 +1,6 @@
 <?php
 
-include 'Model/Abstract.php';
+require_once 'Model/Abstract.php';
 
 class Core_Library_Model {
 

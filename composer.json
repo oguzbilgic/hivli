@@ -1,5 +1,8 @@
 {
     "name": "hivli/hivli",
-    "include-path": ["lib/"]
+    "include-path": ["lib/"],
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    }
 }
  
