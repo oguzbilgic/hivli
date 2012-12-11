@@ -2,14 +2,10 @@
 
 class Core_Library_Bootstrap_Router extends Core_Library_Bootstrap_Abstract {
 
-  function preDetectApp(){
+  function detectApp(){   
     $Router = Core_Library_Loader::get('Router');
     $Router->addApplication('default', '/', 'default/');
     $Router->setDefaultApplication('default');
-  }
-
-  function detectApp(){   
-    $Router = Core_Library_Loader::get('Router');
     $Router->detectApp();
   }
 

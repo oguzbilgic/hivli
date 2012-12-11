@@ -2,10 +2,14 @@
 
 class Core_Library_View_Helper_Script extends Core_Library_View_Helper_Abstract {
 
-  var $_viewFile;
+  private $_viewFile;
 
   function setViewFile($viewFile){
     $this->_viewFile = $viewFile;
+  }
+
+  function getViewFile($viewFile){
+    return $this->_viewFile;
   }
 
   function render(){
