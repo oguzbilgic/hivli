@@ -1,7 +1,8 @@
 ## head
 
 * [bootstrap] Add bootstrap module
-* [plugin] Remove unused plugin module
+* [plugin] Remove plugin module
+* [form] Remove form module
 * Fix indentation of all php files
 
 ## v1.0.1
