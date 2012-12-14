@@ -62,6 +62,6 @@ class Core_Library_Controller {
 
   private function _includeController(){
     $controllerFileName = $this->_controllerPath.$this->_controllerClassName.'.php';
-    include $controllerFileName;
+    require_once $controllerFileName;
   }
 }
