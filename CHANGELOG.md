@@ -3,6 +3,7 @@
 * [bootstrap] Add bootstrap module
 * [plugin] Remove plugin module
 * [form] Remove form module
+* [test] Remove test module
 * [loader] Refactor get function
 * Fix indentation of all php files
 
