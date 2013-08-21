@@ -8,7 +8,7 @@ class Core_Library_View_Helper_Script extends Core_Library_View_Helper_Abstract 
     $this->_viewFile = $viewFile;
   }
 
-  function getViewFile($viewFile){
+  function getViewFile(){
     return $this->_viewFile;
   }
 
