@@ -1,5 +1,7 @@
 ## head
 
+## v1.1.0
+
 * [bootstrap] Add bootstrap module
 * [plugin] Remove plugin module
 * [form] Remove form module
